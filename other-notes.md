@@ -1,7 +1,5 @@
 # Other Notes
 
-
-
 * Condensing multiple observable variables into more abstract, “latent” constructs: Factor Analysis \(and Principal Components Analysis\)
 * Clustering methods 
   * k-means clustering 
