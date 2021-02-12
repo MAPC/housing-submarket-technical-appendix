@@ -163,9 +163,9 @@ Using Ward’s method to cluster neighborhoods based on the latent and observabl
 {% endtab %}
 
 {% tab title="Results" %}
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%282%29.png)
 
-![](.gitbook/assets/image%20%286%29.png)
+![](.gitbook/assets/image%20%288%29%20%281%29.png)
 
 ![](.gitbook/assets/image%20%284%29.png)
 {% endtab %}
