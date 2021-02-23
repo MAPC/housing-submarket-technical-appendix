@@ -6,7 +6,7 @@ description: >-
 
 # MAPC Housing Submarket Typology Analysis
 
-**Introduction**
+### **Introduction**
 
 Urban and regional planners, policymakers, housing and community development advocates, and more depend on community knowledge and data to plan and implement development strategies, revitalization programs, and other neighborhood-centric policies and interventions. However, neighborhoods selected for such efforts may be targeted in isolation or alongside neighboring communities under the assumption that spatially clustered neighborhoods may experience parallel, intended policy effects. In reality, similar neighborhoods, sharing common challenges and opportunities, may exist throughout the region in a spatially heterogeneous manner, while nearby neighborhoods may actually have vastly different characteristics that could result in unintended policy impacts.
 
@@ -14,15 +14,13 @@ One approach to categorizing neighborhoods that could account for these issues i
 
 The overall goal of this study was to develop a regional housing submarket typology for Greater Boston. To accomplish this goal, we produced a novel dataset incorporating building stock, housing market, and neighborhood environment information from the U.S. Census Bureau, the Warren Group real estate and mortgage database, and the U.S. Department of Housing and Urban Development. We then compared two well-studied clustering techniques – latent profile analysis \(LPA\) and _k_-medoids – in order to cluster census tracts throughout the region into housing submarket types. Ultimately, we identified seven housing submarkets that are distinct enough from one another to signify significant differences in micro-level housing market characteristics. Our findings provide a valuable tool that planners, policymakers, researchers, and others can use to develop appropriate, targeted programs, policies, and research efforts for the range of neighborhood types that may exist within a given municipality or across the region.
 
-**Research methods and data**
-
-_Study area and data_
+### _Study area and data_
 
 The data for this study were drawn from four sources: the U.S. Census Bureau’s American Community Survey \(ACS\) 5-year estimates from 2013-2017, the 2000 U.S. Decennial Census, the Warren Group real estate and mortgage database, and the U.S. Department of Housing and Urban Development \(HUD\). Data were collected for the 706 census tracts within the 101 municipalities comprising the MAPC region and standardized to 2010 census tract boundaries using Brown University’s Longitudinal Tract Data Base \(LTDB\). After removing census tracts with missing data, no population, or zero housing units, 681 census tracts remained and were included in the final analyses.
 
 Housing market demographics, contract rent, and housing density were collected from both the 2000 US Decennial Census and ACS 2013-2017 5-year sample estimates; these variables were used to describe current conditions \(ACS data\) or a change in conditions from the year 2000. Household income, vacancy rates, and housing characteristics \(e.g., housing stock age\) were drawn from ACS 2013-2017 data. The share of subsidized housing units in a given tract were calculated using data from HUD. Median home value and housing sales characteristics \(e.g., the percent of residential sales purchased by a business\) were drawn from property data collected by The Warren Group, a New England-based real estate and mortgage data tracking company. Table 1 provides a list of the variables used in the submarket analysis, along with associated descriptive statistics. Data sources, variable calculations, and other metadata are included in the appendix.
 
-_Clustering techniques_
+### _Clustering techniques_
 
 Latent Profile Analysis
 
@@ -72,8 +70,6 @@ Model fit criteria were calculated for models of 1 to 9 classes across four vari
 | Change in Renters \(%\) | 3.4 | 43.4 | -85.6 | 634.2 |
 | Change in Population \(%\) | 9.7 | 16.8 | -22 | 166.4 |
 | Change Housing Unit Density \(%\) | 43.8 | 129.1 | -32.1 | 1,652.2 |
-|  |  |  |  |  |
-|  |  |  |  |  |
 
 **Table 2**. Summary of submarket characteristics – model-based means for each submarket \(Latent Profile Analysis\)
 
@@ -110,8 +106,6 @@ Model fit criteria were calculated for models of 1 to 9 classes across four vari
 | Change Housing Unit Density \(%\) | 18.9 | 19.3 | 38.5 | 59.2 | 55.6 | 31.1 | 145.7 |
 | Count | 143 | 60 | 180 | 78 | 55 | 112 | 53 |
 | Proportion | 0.21 | 0.09 | 0.26 | 0.11 | 0.08 | 0.16 | 0.08 |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
 
 **Table 3**. Fit Statistics for Latent Class Analysis Profiles \(Class-Invariant, Diagonal Model\)
 
@@ -129,48 +123,5 @@ Model fit criteria were calculated for models of 1 to 9 classes across four vari
 
 _Note_. LL = Log likelihood; AIC = Akaike’s Information Criterion; AWE = Approximate Weight of Evidence Criterion; BIC = Bayesian Information Criterion; CAIC = Consistent Akaike’s Information Criterion; BLRT = Bootstrapped Log Likelihood Ratio Test
 
-![](.gitbook/assets/0.png)
 
-![](.gitbook/assets/1.png)
 
-Suburban and regional urban centers; low density, lower cost, older housing stock; moderate household income; minimal change
-
-Latent Profile Analysis
-
-![](.gitbook/assets/2.png)
-
-Suburban; low-density, older housing stock; high home prices and rents; high income; minimal change
-
-Latent Profile Analysis
-
-![](.gitbook/assets/3.png)
-
-Primarily inner core; moderate density, oldest housing stock; low/moderate household income; increasing home values and rents, decreasing renters
-
-Latent Profile Analysis
-
-![](.gitbook/assets/4.png)
-
-Primarily inner core; high density, lower cost, mixed-age housing stock; lowest household income; high foreclosure, business buyers, and cash sales; greatest increase in home value; increasing population and density
-
-Latent Profile Analysis
-
-![](.gitbook/assets/5.png)
-
-Suburban and regional urban centers; low density, newest housing stock; lowest home values; high foreclosure; increases in rent, renters, population, and density
-
-Latent Profile Analysis
-
-![](.gitbook/assets/6.png)
-
-Suburban; lowest density, newer moderate-cost housing stock; very high household income; most stable pre-/post-recession residential sales activity; minimal change
-
-Latent Profile Analysis
-
-![](.gitbook/assets/7.png)
-
-Inner core; highest density, high-cost older housing stock; moderate household income; highest rents, vacancy, and cash sales rate; increasing home values, rent, population, and density; decreasing renters
-
-Latent Profile Analysis
-
-1. 

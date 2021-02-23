@@ -48,7 +48,7 @@ Steps:
 
 **Cons:** The number of clusters k is an input parameter, chosen by the investigator; inappropriate choice of k can lead to poor results Poor handling of outliers \(logic: arithmetic means handle outliers worse than medians\) Tendency to produce equal-sized clusters can lead to bad results \(see below\)
 
-![](.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%281%29.png)
 {% endtab %}
 
 {% tab title="k-medians clustering" %}
@@ -80,7 +80,7 @@ k-means: 1a – 1f
 
 k-medoids: 2a – 2h
 
-![](.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 The k-means algorithm asks “what is the centroid of the current cluster?” This question uses the mean of distances between the initial “mean” and the points within the cluster. The random location of the initial mean – and the distribution of the within-cluster distances from the mean – can heavily sway where the resulting centroid is placed \(since a number of outliers can heavily sway a mean in a way that they don’t sway medians or the medoid algorithm\). \(See Figure 1a-b for evidence of how the “outliers” of the upper right corner affect the brown and purple clustering decisions of the algorithm.\)
 
@@ -163,11 +163,11 @@ Using Ward’s method to cluster neighborhoods based on the latent and observabl
 {% endtab %}
 
 {% tab title="Results" %}
-![](.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
-![](.gitbook/assets/image%20%288%29%20%281%29.png)
+![](../.gitbook/assets/image%20%288%29%20%281%29.png)
 
-![](.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%284%29.png)
 {% endtab %}
 {% endtabs %}
 
