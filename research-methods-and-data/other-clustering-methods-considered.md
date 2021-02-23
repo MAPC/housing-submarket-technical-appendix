@@ -21,18 +21,11 @@ In this study we tested several different LPA models, each distinguished by the 
 
 We then substantially reduced the number of possible profile solutions using model fit criteria and substantive considerations from internal stakeholders knowledgeable about regional housing dynamics. Ultimately, we chose the 7-class LPA solution with a class-invariant, diagonal variance-covariance matrix structure`[3]` as the best LPA model.
 
-1. Masyn, K. E. \(2013\). Latent class analysis and finite mixture modeling. In T. D. Little \(Ed.\), Oxford library of psychology. The Oxford handbook of quantitative methods: Statistical analysis \(pp. 551-611\). New York, NY, US: Oxford University Press.
-2. Wang, W., and Hanges, P. J. \(2011\). Latent class procedures: Applications to organizational research. Organizational Research Methods 14\(1\):24-31.
-
 #### Determining the number of classes
 
 We examined nine model fit statistics to evaluate candidate profile solutions: Log likelihood \(LL\), Akaike’s Information Criterion \(AIC\), consistent AIC \(CAIC\), Bayesian Information Criterion \(BIC\), sample-size adjusted BIC \(SABIC\), Approximate Weight of Evidence Criterion \(AWE\), entropy, and the bootstrap likelihood ratio test \(Bootstrap LRT\). Model fit criteria for LPA and other finite mixture models are extensively discussed in articles by Masyn`[4]`and Nylund, Asparouhov, and Muthén.[\[5\]]() Generally, the optimal LPA model has lower values of AIC, CAIC, BIC, SABIC, and AWE relative to other candidate models; a higher value of entropy compared to other candidate models; and a statistically significant BLRT \(p &lt; 0.05\). Parsimony \(i.e. choosing fewer rather than a greater numbers of classes\) and substantive considerations \(i.e. theory and/or subject matter expertise\) should be used to choose the best model when comparing candidate solutions with similar model fit statistics and differing numbers of classes.
 
 Model fit criteria were calculated for models of 1 to 9 classes across four variance-covariance parameterizations: class-invariant, diagonal \(hereafter referred to as model parameterization A\); class-varying, diagonal \(B\); class-invariant, unrestricted \(C\); and class-varying, unrestricted \(D\). For model parameterizations B and D, the models failed to converge after 4 and 3 classes, respectively, for all model fit criteria. Based on internal stakeholder conversations, these 4- and 3- class models failed to adequately represent the diversity of housing submarkets in the region and were therefore dropped from further analysis. For model parameterizations A and C, the models converged for all tested class sizes, but model fit failed to demonstrably improve after 7 classes. Therefore, the 7-class class-invariant, diagonal \(A\) and 7-class class-invariant, unrestricted \(C\) models were chosen as the top two candidate LPA models based on fit criteria. After additional internal stakeholder discussions, the 7-class class-invariant, diagonal \(A\) model was ultimately selected as the most representative submarket clustering model of all candidate LPA solutions.
-
-`3.` Wang, W., and Hanges, P. J. \(2011\). Latent class procedures: Applications to organizational research. Organizational Research Methods 14\(1\):24-31. Variances for a given variable do not vary across classes, and covariances are assumed to be 0 Ibid. 
-
-`4.` Nylund, K. L., Asparouhov, T., and Muthén, B. O. \(2007\). Deciding on the number of classes in latent class analysis and growth mixture modeling: A Monte Carlo simulation study. Structural Equation Modeling 14\(4\):535-569.
 
 
 
@@ -47,6 +40,14 @@ The model was run with two different data inputs, the first being min-max scaled
 To determine a baseline number of clusters to use, we examined the average silhouette width and within sum-of-squares for both Manhattan- and Euclidean-based distance models from k = 1 to k = 20 clusters. The silhouette represents a comparison of tightness and separation of a point to its assigned cluster, and has a value ranging from -1 to 1. Values closer to 1 indicate that the point is far from other clusters, while values closer to -1 may indicate incorrect cluster assignment. The average silhouette width is the average of all silhouettes in a cluster. Typically, the ideal number of clusters maximizes the average silhouette width. The within sum-of-squares is another common metric used for evaluating clusters and describes the within-group variability of a cluster. A small within sum-of-squares indicates more cohesive clustering and is commonly evaluated visually using the “elbow test,” which describes the k at which the within sum-of-squares shows no notable improvement upon inclusion of an additional cluster.
 
 Upon evaluation of both fit metrics, we proceeded with modeling k = 4 through k = 9 clusters, as models with k &lt; 4 were too reductive in nature and models with k &gt; 9 did not significantly improve either diagnostic metric. These models were then whittled down through internal engagement with stakeholders, and the 7-cluster Manhattan model was chosen as the final specification.
+
+`1.` Masyn, K. E. \(2013\). Latent class analysis and finite mixture modeling. In T. D. Little \(Ed.\), Oxford library of psychology. The Oxford handbook of quantitative methods: Statistical analysis \(pp. 551-611\). New York, NY, US: Oxford University Press.
+
+`2.` Wang, W., and Hanges, P. J. \(2011\). Latent class procedures: Applications to organizational research. Organizational Research Methods 14\(1\):24-31.
+
+`3.` Wang, W., and Hanges, P. J. \(2011\). Latent class procedures: Applications to organizational research. Organizational Research Methods 14\(1\):24-31. Variances for a given variable do not vary across classes, and covariances are assumed to be 0 Ibid. 
+
+`4.` Nylund, K. L., Asparouhov, T., and Muthén, B. O. \(2007\). Deciding on the number of classes in latent class analysis and growth mixture modeling: A Monte Carlo simulation study. Structural Equation Modeling 14\(4\):535-569.
 
 {% hint style="info" %}
 _Note_. LL = Log likelihood; AIC = Akaike’s Information Criterion; AWE = Approximate Weight of Evidence Criterion; BIC = Bayesian Information Criterion; CAIC = Consistent Akaike’s Information Criterion; BLRT = Bootstrapped Log Likelihood Ratio Test
