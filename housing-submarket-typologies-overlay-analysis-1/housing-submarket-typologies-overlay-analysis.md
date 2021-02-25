@@ -1,4 +1,8 @@
-# Housing Submarket Typologies Overlay Analysis
+---
+description: 'Author: Caitlin Spence'
+---
+
+# Housing Submarket Overlays: People, Conditions, and Opportunities
 
 The overlay analysis component of the Housing Submarket Typologies project analyzes the demographic characteristics, available amenities, and lending history of each submarket. The submarket properties explored in the overlay analysis are shown in the table below.
 
