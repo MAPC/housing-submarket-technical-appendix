@@ -39,9 +39,95 @@ Model fit criteria were calculated for models of 1 to 9 classes across four vari
 
 `5.` Nylund, K. L., Asparouhov, T., and Muthén, B. O. \(2007\). Deciding on the number of classes in latent class analysis and growth mixture modeling: A Monte Carlo simulation study. Structural Equation Modeling 14\(4\):535-569.
 
-{% hint style="info" %}
+### LPA Summary Statistics 
+
+**Table 1.** Descriptive Statistics
+
+| Variable | Mean | Std Dev | Min | Max |
+| :--- | :--- | :--- | :--- | :--- |
+| Housing Unit Density \(units per square mile\) | 5,265.6 | 7,206.5 | 88.2 | 59,345.5 |
+| Median Household Income \($\) | 89,968.3 | 37,650.2 | 16,094 | 228,438 |
+| Households with Income 0-35K \(%\) | 23.4 | 12.9 | 2.6 | 74.9 |
+| Households with Income 35-75K \(%\) | 22.7 | 7.5 | 5.4 | 45.5 |
+| Households with Income 75-100K \(%\) | 11.4 | 4.2 | 1.5 | 23.2 |
+| Households with Income 100K + \(%\) | 42.5 | 17.3 | 4.8 | 81.7 |
+| Households with Income 150K+ \(%\) | 24.8 | 15.2 | 0 | 68.7 |
+| Median Contract Rent \($\) | 1,301.9 | 476.1 | 0 | 3,297 |
+| Median Home Value \($\) | 560,761.9 | 240,372.7 | 147,000 | 1,899,000 |
+| Renter-Occupied Housing Units \(%\) | 42.7 | 24.2 | 1.8 | 98.1 |
+| Residential Sales Purchased by Business Buyers \(%\) | 13.3 | 10.1 | 0 | 80 |
+| Residential Foreclosure Activity \(%\) | 2.6 | 3.2 | 0 | 20 |
+| Cash Sales \(%\) | 22.7 | 10.7 | 0 | 83.3 |
+| Change in Residential Home Sales from 2003-2007 to 2012-2016 \(%\) | -11.1 | 18.6 | -66.3 | 117.9 |
+| Vacant Units \(%\) | 6.1 | 4.1 | 0 | 29.4 |
+| HUD Subsidized Housing Units \(%\) | 2.7 | 6.4 | 0 | 54.6 |
+| Three-Bedroom Units \(%\) | 51.2 | 21.6 | 1.9 | 95.8 |
+| Units Built 1959 or Earlier \(%\) | 58 | 21.2 | 4 | 95.6 |
+| Units Built 1960-1999 \(%\) | 33.4 | 18 | 3.3 | 88.5 |
+| Units Built 2000 or Later \(%\) | 8.6 | 8.3 | 0 | 55 |
+| 1 Unit \(%\) | 47.7 | 30 | 0 | 100 |
+| 2-4 Units \(%\) | 25.9 | 21.8 | 0 | 87.6 |
+| 5+ Units \(%\) | 26.1 | 22.8 | 0 | 99.2 |
+| Change in Median Home Value \(%\) | 48.6 | 48.4 | -43.8 | 753.8 |
+| Change in Median Contract Rent \(%\) | 18.8 | 39.3 | -100 | 421.2 |
+| Change in Renters \(%\) | 3.4 | 43.4 | -85.6 | 634.2 |
+| Change in Population \(%\) | 9.7 | 16.8 | -22 | 166.4 |
+| Change Housing Unit Density \(%\) | 43.8 | 129.1 | -32.1 | 1,652.2 |
+
+\*\*\*\*
+
+**Table 2**. Summary of submarket characteristics – model-based medians for each submarket \(Latent Profile Analysis\)
+
+| Variable | 1 | 2 | 3 | 4 | 5 | 6 | 7 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Housing Unit Density \(units per square mile\) |  16,076 |  8,040 |  6,512 |  1,475 |  1,176 |  1,188 |  16,076 |
+| Median Household Income \($\) |  91,964 |  39,183 |  70,264 |  85,481 |  155,551 |  80,024 |  91,964 |
+| Households with Income 0-35K \(%\) |  22.7 |  45.9 |  24.9 |  19.3 |  11.8 |  22.0 |  22.7 |
+| Households with Income 35-75K \(%\) |  19.1 |  27.3 |  27.0 |  24.5 |  11.8 |  25.3 |  19.1 |
+| Households with Income 75-100K \(%\) |  10.2 |  7.5 |  12.5 |  13.1 |  7.9 |  13.8 |  10.2 |
+| Households with Income 100K + \(%\) |  47.1 |  16.6 |  35.1 |  41.9 |  69.0 |  37.6 |  47.1 |
+| Households with Income 150K+ \(%\) |  30.8 |  6.8 |  14.6 |  21.5 |  51.6 |  19.9 |  30.8 |
+| Median Contract Rent \($\) |  1,882 |  990 |  1,269 |  1,164 |  1,667 |  1,406 |  1,882 |
+| Median Home Value \($\) |  810,000 |  416,926 |  534,625 |  430,000 |  942,000 |  363,500 |  810,000 |
+| Renter-Occupied Housing Units \(%\) |  65.5 |  77.3 |  56.7 |  28.8 |  17.9 |  42.4 |  65.5 |
+| Residential Sales Purchased by Business Buyers \(%\) |  16.4 |  17.6 |  14.6 |  10.0 |  14.5 |  8.6 |  16.4 |
+| Residential Foreclosure Activity \(%\) |  - |  2.6 |  1.6 |  2.1 |  - |  3.0 |  - |
+| Cash Sales \(%\) |  37.9 |  27.3 |  19.6 |  19.6 |  20.2 |  22.2 |  37.9 |
+| Change in Residential Home Sales from 2003-2007 to 2012-2016 \(%\) |  \(22.7\) |  \(30.9\) |  \(18.5\) |  \(6.0\) |  1.6 |  \(12.7\) |  \(22.7\) |
+| Vacant Units \(%\) |  8.5 |  6.6 |  6.2 |  4.8 |  4.8 |  4.7 |  8.5 |
+| HUD Subsidized Housing Units \(%\) |  1.3 |  7.7 |  - |  - |  - |  - |  1.3 |
+| Three-Bedroom Units \(%\) |  16.9 |  30.2 |  42.0 |  59.3 |  78.1 |  47.1 |  78.0 |
+| Units Built 1959 or Earlier \(%\) |  64.2 |  57.0 |  75.9 |  62.2 |  69.8 |  32.9 |  33.1 |
+| Units Built 1960-1999 \(%\) |  27.7 |  34.8 |  18.6 |  30.4 |  22.8 |  53.7 |  53.5 |
+| Units Built 2000 or Later \(%\) |  3.9 |  8.3 |  3.9 |  4.7 |  7.7 |  14.8 |  10.3 |
+| 1 Unit \(%\) |  6.3 |  12.8 |  24.1 |  66.6 |  79.8 |  51.1 |  86.4 |
+| 2-4 Units \(%\) |  19.2 |  30.3 |  53.9 |  15.9 |  9.8 |  9.6 |  3.4 |
+| 5+ Units \(%\) |  70.0 |  49.2 |  20.1 |  15.4 |  7.9 |  37.5 |  7.2 |
+| Change in Median Home Value \(%\) |  75.0 |  65.4 |  57.3 |  31.3 |  38.7 |  24.5 |  15.6 |
+| Change in Median Contract Rent \(%\) |  27.2 |  14.4 |  24.2 |  9.7 |  11.8 |  18.3 |  13.5 |
+| Change in Renters \(%\) |  \(6.1\) |  \(0.3\) |  \(5.2\) |  \(3.8\) |  \(7.9\) |  17.6 |  \(0.7\) |
+| Change in Population \(%\) |  6.8 |  9.3 |  6.0 |  3.7 |  5.4 |  14.8 |  8.8 |
+| Change Housing Unit Density \(%\) |  23.1 |  17.5 |  6.6 |  6.2 |  2.6 |  29.4 |  11.7 |
+
+|  |
+| :--- |
+
+
+**Table 3**. Fit Statistics for Latent Class Analysis Profiles \(Class-Invariant, Diagonal Model\)
+
+| Classes | LL | AIC | AWE | BIC | CAIC | Entropy | BLRT \(_p_\) |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | -98214.6 | 196541.1 | 197325.8 | 196794.5 | 196850.5 | 1 | NA |
+| 2 | -95970.5 | 192110.9 | 193303 | 192495.4 | 192580.4 | 0.955626 | 0.009901 |
+| 3 | -95161.3 | 190550.5 | 192150 | 191066.2 | 191180.2 | 0.943141 | 0.009901 |
+| 4 | -94311.1 | 188908.3 | 190915.1 | 189555.1 | 189698.1 | 0.956014 | 0.009901 |
+| 5 | -93770.7 | 187885.3 | 190299.5 | 188663.4 | 188835.4 | 0.956939 | 0.009901 |
+| 6 | -93470.6 | 187343.2 | 190164.8 | 188252.4 | 188453.4 | 0.949103 | 0.009901 |
+| 7 | -93229.8 | 186919.5 | 190148.5 | 187960 | 188190 | 0.950698 | 0.009901 |
+| 8 | -92528.8 | 185575.6 | 189211.8 | 186747.2 | 187006.2 | 0.965318 | 0.009901 |
+| 9 | -92294.7 | 185165.3 | 189209 | 186468.1 | 186756.1 | 0.964846 | 0.009901 |
+
 _Note_. LL = Log likelihood; AIC = Akaike’s Information Criterion; AWE = Approximate Weight of Evidence Criterion; BIC = Bayesian Information Criterion; CAIC = Consistent Akaike’s Information Criterion; BLRT = Bootstrapped Log Likelihood Ratio Test
-{% endhint %}
 
 ### Other Clustering Methods Considered
 
